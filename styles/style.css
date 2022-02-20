@@ -1,0 +1,101 @@
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+  outline: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  margin: 50px 0;
+}
+
+.post {
+  position: relative;
+
+  max-width: 800px;
+  padding: 20px 20px 50px 20px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+.post:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 0px 8px 10px rgba(34, 60, 80, 0.2);
+}
+
+.post__title {
+  margin: 10px 0;
+}
+
+.post__number {
+  position: absolute;
+  bottom: 20px;
+  right: 20px
+}
+
+.pages-list {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.pages__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 30px;
+  height: 30px;
+
+  border: 1px solid #000;
+}
+
+.link--active {
+  background-color: #a7a7a7;
+}
